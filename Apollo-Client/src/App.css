@@ -1,0 +1,35 @@
+
+
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.header li {
+  float: left;
+}
+
+ul.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul.header li a:hover:not(.active) {
+  /* background-color: #111; */
+  background-color: darkseagreen;
+}
+
+.selected {
+  background-color: #4caf50;
+}
+
+.content {
+  margin-left: 20px;
+  padding: 1px 16px;
+  height: 1000px;
+}
